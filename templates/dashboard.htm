@@ -1,0 +1,36 @@
+<html>
+<title>Angular Application</title>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div class="topnav" id="myTopnav">
+		<div style="text-align: center">
+			<span class="headerText"> Glaucus Logistics </span>
+		</div>
+	</div>
+	<div class="content">
+		<div>
+			<div class="diveLabel" ng-repeat="item in sampleData" ng-init="item.editable = false">
+				<div class="divcontent" ng-init="item.btn_value='Edit'">
+					<div class="value"> Company ID:</div> {{item.idtableClientSystemConfigId}}
+					<span style="float:right">
+                        <button class="editbutton" ng-click="btn_click(item.idtableClientSystemConfigId,$index)">{{item.btn_value}}</button> </span>
+					<div>
+						<div class="value">Company Name:</div>{{item.tableClient.tableClientCompanyName}}
+					</div>
+					<div>
+						<div class="value">Setting Name: </div>{{item.tableClientSystemConfigConfigName}}</div>
+					<div>
+						<div class="value"> Setting Value : </div><span ng-if="!item.editable">{{item.tableClientSystemConfigValue}}</span>
+						<input type="text" ng-model="item.tableClientSystemConfigValue" ng-if="item.editable">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

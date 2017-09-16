@@ -1,0 +1,305 @@
+var sampleData = [{
+    "idtableClientSystemConfigId": 1,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon Cancelled Order Reader Timer Period",
+    "tableClientSystemConfigValue": "900000"
+}, {
+    "idtableClientSystemConfigId": 2,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon Cancelled Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 3,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon Order Feed Status DB Reader Timer Period",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 4,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon Order Feed Status DB Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 5,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon Order Reader Timer Period",
+    "tableClientSystemConfigValue": "90000"
+}, {
+    "idtableClientSystemConfigId": 6,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 7,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon Product Reader Timer Period",
+    "tableClientSystemConfigValue": "90000"
+}, {
+    "idtableClientSystemConfigId": 8,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon Product Reader Timer Delay",
+    "tableClientSystemConfigValue": "60000"
+}, {
+    "idtableClientSystemConfigId": 9,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Flipkart Cancelled Order Reader Timer Period",
+    "tableClientSystemConfigValue": "60000"
+}, {
+    "idtableClientSystemConfigId": 10,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Flipkart Cancelled Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 11,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Flipkart Order Reader Timer Period",
+    "tableClientSystemConfigValue": "900000000"
+}, {
+    "idtableClientSystemConfigId": 12,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Flipkart Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "90000"
+}, {
+    "idtableClientSystemConfigId": 13,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Flipkart Returned Order Reader Timer Period",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 14,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Flipkart Returned Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 15,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Flipkart WH Packed DB Reader Timer Period",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 16,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Flipkart WH Packed DB Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 17,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Ftp Cancel Order Reader Timer Period",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 18,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Ftp Cancel Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 19,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Ftp Order Reader Timer Period",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 20,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Ftp Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 21,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Magento Cancelled Order Reader Timer Period",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 22,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Magento Cancelled Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 23,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Magento Order Reader Timer Period",
+    "tableClientSystemConfigValue": "300000"
+}, {
+    "idtableClientSystemConfigId": 24,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Magento Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 25,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Magento Product Reader Timer Period",
+    "tableClientSystemConfigValue": "300000"
+}, {
+    "idtableClientSystemConfigId": 26,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Magento Product Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 27,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Magento Returned Order Reader Timer Period",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 28,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Magento Returned Order Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 29,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "New Order DB Reader Timer Period",
+    "tableClientSystemConfigValue": "1000"
+}, {
+    "idtableClientSystemConfigId": 30,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "New Order DB Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 31,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "New Returned Order DB Reader Timer Period",
+    "tableClientSystemConfigValue": "10000"
+}, {
+    "idtableClientSystemConfigId": 32,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "New Returned Order DB Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 33,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Shipping In Transit DB Reader Timer Period",
+    "tableClientSystemConfigValue": "86400000"
+}, {
+    "idtableClientSystemConfigId": 34,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Shipping In Transit DB Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 35,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon FBA Inventory Reader Timer Period",
+    "tableClientSystemConfigValue": "3600000"
+}, {
+    "idtableClientSystemConfigId": 36,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Amazon FBA Inventory Reader Timer Delay",
+    "tableClientSystemConfigValue": "120000"
+}, {
+    "idtableClientSystemConfigId": 37,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Sales Channel Sku Update DB Reader Timer Period",
+    "tableClientSystemConfigValue": "300000"
+}, {
+    "idtableClientSystemConfigId": 38,
+    "tableClient": {
+        "idtableClientId": 1,
+        "tableClientCompanyName": "Industry Buying"
+    },
+    "tableClientSystemConfigConfigName": "Sales Channel Sku Update DB Reader Timer Delay",
+    "tableClientSystemConfigValue": "100000"
+}];
